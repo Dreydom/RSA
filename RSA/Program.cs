@@ -8,7 +8,6 @@ namespace RSA
     class Program
     {
         static Encoding cp866 = Encoding.GetEncoding("cp866");
-        static Encoding win1251 = Encoding.GetEncoding("windows-1251");
         private static BigInteger GCD(BigInteger a, BigInteger b)
         {
             if (a == 0)
