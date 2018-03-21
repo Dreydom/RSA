@@ -133,9 +133,8 @@ namespace RSA
             BigInteger m = (p - 1) * (q - 1);
             BigInteger d = Coprime(m);
             BigInteger e = Inverse(d, m);
-            Console.WriteLine(Console.InputEncoding.BodyName);
-            Console.WriteLine(Console.OutputEncoding.BodyName);
 
+            Console.WriteLine("p = {0}", p);
             Console.WriteLine("q = {0}", q);
             Console.WriteLine("n = {0}", n);
             Console.WriteLine("m = {0}", m);
